@@ -15,7 +15,7 @@ const Home = ({
   }[];
 }) => {
   return (
-    <div>
+    <div className={homeStyles.container}>
       <Head>
         <title>Kim&#039;s blog </title>
       </Head>
